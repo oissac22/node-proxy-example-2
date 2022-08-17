@@ -1,0 +1,22 @@
+{
+  "name": "extudoNodeProxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Cássio da Silva Carneiro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-http-proxy": "^1.6.3",
+    "http-proxy-middleware": "^2.0.6"
+  },
+  "devDependencies": {
+    "@types/express-http-proxy": "^1.6.3",
+    "nodemon": "^2.0.19"
+  }
+}
